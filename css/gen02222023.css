@@ -88,7 +88,7 @@
     /* line 68, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
     .join_media-left {
       width: auto;
-      height: 555px;
+      height: 540px;
       left: -3%;
       top: 23px;
     }
@@ -110,7 +110,7 @@
 .aka-service-list {
   display: flex;
   align-items: stretch;
-  gap: 5px;
+  gap: 3px;
 }
 
 
@@ -127,8 +127,29 @@
 
 .aka-service-item {
   cursor: pointer;
-  background-color: #fff;
+  border: solid 1px black ;
+  background-color: #F8F8FF;
   padding: 30px;
+}
+
+.aka-text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aka-text-center span {
+  max-width: 500px;
+}
+
+.aka-center {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.aka-service-item .spy-2 {
+  margin: 8px 0;
 }
 
 .aka-service-item:hover {

@@ -42,7 +42,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $headerFont;
-    font-weight: 600;
+    font-weight: 700;
     color: $headerColor;
 }
 
@@ -60,6 +60,11 @@ h3, .h3 {
     font-size: 28px;
     line-height: 1.4;
 }
+
+.logo_text {
+    color: $primary;
+}
+
 
 h4, .h4 {
     font-size: 24px;

@@ -2,6 +2,10 @@
     background: none !important;
 }
 
+.pt-2 {
+  padding-top: 0px !important;
+}
+
 .aka-bg-orange {
     background: #ff7b02 !important;
 }
@@ -9,4 +13,138 @@
 .aka-btn-neon {
     background: #29F3AF !important;
     box-shadow: 3px 3px 0 #29F3AF !important;
+}
+
+
+.join_media {
+    display: none;
+  }
+
+  @media screen and (min-width: 1199.98px) {
+    /* line 107, ../../../Documents/work space/bizsite/scss/blocks/_join.scss */
+    .join {
+      position: relative;
+      overflow: hidden;
+    }
+    /* line 111, ../../../Documents/work space/bizsite/scss/blocks/_join.scss */
+    .join_media {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  @media screen and (min-width: 1199.98px) {
+    /* line 15, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media img {
+      position: absolute;
+    }
+    /* line 19, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media-left {
+      width: 500px;
+      left: -25%;
+      top: 80px;
+    }
+    /* line 25, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media .group {
+      width: 476px;
+      height: 494px;
+      position: absolute;
+      right: -29%;
+      top: 139px;
+    }
+    /* line 32, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media .group .shape {
+      width: 476px;
+      height: 494px;
+    }
+    /* line 37, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media .group .speaker {
+      width: 350px;
+      height: 366px;
+      top: 0;
+      left: -114px;
+    }
+  }
+
+  @media screen and (min-width: 1399.98px) {
+    /* line 51, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media-left {
+      width: 550px;
+      left: -15%;
+      top: 44px;
+    }
+    /* line 57, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media .group {
+      right: -18%;
+      top: 33px;
+    }
+  }
+
+  @media screen and (min-width: 1599.98px) {
+    /* line 68, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media-left {
+      width: auto;
+      height: 555px;
+      left: -3%;
+      top: 23px;
+    }
+    /* line 75, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media .group {
+      right: -11%;
+      top: 54px;
+    }
+  }
+
+  @media screen and (min-width: 1999.98px) {
+    /* line 86, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
+    .join_media .group {
+      right: -1%;
+    }
+  }
+
+
+.aka-service-list {
+  display: flex;
+  align-items: stretch;
+  gap: 5px;
+}
+
+
+@media screen and (max-width: 615px) {
+  .aka-service-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.aka-service-list > * {
+  flex: 1 0 0; /* flex-basis: 0; flex-grow: 1; flex-shrink: 0; */
+}
+
+.aka-service-item {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.aka-service-item:hover {
+  -webkit-box-shadow: 3px 3px 0 #29f3af;
+  box-shadow: 3px 3px 0 #29f3af;
+}
+
+.aka-service-item i {
+  color: #a52a2a;
+  font-size: 32px;
+}
+
+.aka-service-item-title {
+
+}
+
+.aka-service-item-text {
+
 }

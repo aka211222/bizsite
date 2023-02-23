@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "preload.css",
+	"sources": [
+		"../scss/preload.scss",
+		"../scss/global/_fontface.scss",
+		"../scss/base/_mixins.scss"
+	],
+	"sourcesContent": [
+		"/**\r\n * AkaTek\r\n**/\r\n@import \"global/fontface\";",
+		"/**\r\n * AkaTek\r\n**/\r\n@import \"../base/mixins\";\r\n@include font-face(\"Nunito\", \"Nunito-Regular\", 400);\r\n@include font-face(\"Nunito\", \"Nunito-SemiBold\", 600);\r\n@include font-face(\"Nunito\", \"Nunito-Bold\", 700);\r\n@include font-face(\"Roboto\", \"RobotoMono-SemiBold\", 600);\r\n@include font-face(\"Roboto\", \"RobotoMono-Bold\", 700);\r\n",
+		"/**\r\n * AkaTek\r\n**/\r\n@mixin font-face($name, $file, $weight, $style: normal) {\r\n    @font-face {\r\n        font-family: \"#{$name}\";\r\n        src: local(\"#{$file}\"),\r\n        url('../fonts/#{$file}.tff') format('tff');\r\n        font-weight: $weight;\r\n        font-style: $style;\r\n        font-display: swap;\r\n    }\r\n}\r\n\r\n@mixin neonEl() {\r\n    background: $accent;\r\n    color: $headerColor;\r\n    border: $border;\r\n    -webkit-box-shadow: 3px 3px 0 $accent;\r\n       -moz-box-shadow: 3px 3px 0 $accent;\r\n            box-shadow: 3px 3px 0 $accent;\r\n    -webkit-border-radius: 2px;\r\n       -moz-border-radius: 2px;\r\n            border-radius: 2px;\r\n    &:hover, &:focus {\r\n        -webkit-box-shadow: 6px 6px 0 $headerColor;\r\n           -moz-box-shadow: 6px 6px 0 $headerColor;\r\n                box-shadow: 6px 6px 0 $headerColor;\r\n    }\r\n}\r\n\r\n@mixin caret() {\r\n    position: absolute;\r\n    background: $accent;\r\n    width: 22px;\r\n    height: 13px;\r\n    -webkit-animation: blink 0.9s infinite both;\r\n       -moz-animation: blink 0.9s infinite both;\r\n         -o-animation: blink 0.9s infinite both;\r\n            animation: blink 0.9s infinite both;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA;;GAEG;ACFH;;GAEG;ACFH;;GAEG;AAEC,UAAU;EACN,WAAW,EAAE,QAAU;EACvB,GAAG,EAAE,uBAAiB,EACtB,kCAA4B,CAAC,aAAa;EAC1C,WAAW,EDJ4B,GAAG;ECK1C,UAAU,EAN8B,MAAM;EAO9C,YAAY,EAAE,IAAI;;;AANtB,UAAU;EACN,WAAW,EAAE,QAAU;EACvB,GAAG,EAAE,wBAAiB,EACtB,mCAA4B,CAAC,aAAa;EAC1C,WAAW,EDH6B,GAAG;ECI3C,UAAU,EAN8B,MAAM;EAO9C,YAAY,EAAE,IAAI;;;AANtB,UAAU;EACN,WAAW,EAAE,QAAU;EACvB,GAAG,EAAE,oBAAiB,EACtB,+BAA4B,CAAC,aAAa;EAC1C,WAAW,EDFyB,GAAG;ECGvC,UAAU,EAN8B,MAAM;EAO9C,YAAY,EAAE,IAAI;;;AANtB,UAAU;EACN,WAAW,EAAE,QAAU;EACvB,GAAG,EAAE,4BAAiB,EACtB,uCAA4B,CAAC,aAAa;EAC1C,WAAW,EDDiC,GAAG;ECE/C,UAAU,EAN8B,MAAM;EAO9C,YAAY,EAAE,IAAI;;;AANtB,UAAU;EACN,WAAW,EAAE,QAAU;EACvB,GAAG,EAAE,wBAAiB,EACtB,mCAA4B,CAAC,aAAa;EAC1C,WAAW,EDA6B,GAAG;ECC3C,UAAU,EAN8B,MAAM;EAO9C,YAAY,EAAE,IAAI"
+}

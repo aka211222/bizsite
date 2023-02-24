@@ -190,3 +190,13 @@
   height: 22px;
   background-color: #29F3AF;
 }
+
+@media screen and (min-width: 1199.98px) {
+  .services {
+    padding: 140px 0 20px !important;
+  }
+
+  .about {
+    margin-top: 120px !important;
+  }
+}

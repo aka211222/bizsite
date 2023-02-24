@@ -1589,7 +1589,7 @@ input[type="search"]::-webkit-search-results-decoration {
 **/
 /* line 6, ../../../Documents/work space/bizsite/scss/pages/prices/_header.scss */
 .page {
-  background: url("../img/prices/bg.jpg") no-repeat center/cover, #2A2AFF;
+  background: url("../img/prices/bg.jpg") no-repeat center/cover, #ff7b02;
   background-blend-mode: multiply, lighten;
   padding: 20px 0 60px;
   color: #fff;

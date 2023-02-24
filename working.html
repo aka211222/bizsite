@@ -17,13 +17,54 @@
     <style>
         /* <-- working.styles.extend --> */
         .main_text {
-            max-width: 500px !important;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            text-align: justify;
+        }
+
+        .features_main-text {
+            overflow-wrap: break-word;
+            max-width: 575px;
+            word-wrap: break-word;
+            text-align: justify;
+            margin-right: 60px;
         }
 
         @media screen and (max-width: 977.98px) {
             .main_text {
+                
+            }
+            .features_main-text {
+
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .aka-md-working-items {
+                display: flex !important;
+                flex-direction: column;
+            }
+
+            .features_main-text {
                 max-width: unset !important;
             }
+
+            .features_media {
+                width: 100%;
+            }
+            .features_main {
+                order: 2;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .features_main-text {
+                margin-right: 30px;
+            }
+        }
+        .page_media {
+            z-index: 0;
+            top: 0;
         }
     </style>
 
@@ -109,17 +150,6 @@
         <!--  about section start  -->
         <section class="about section">
             <div class="container d-lg-flex align-items-center">
-                <div class="main">
-                    <h3 class="main_title">Dedicated Development Team</h3>
-                    <p class="main_text">
-                        When client opt in for a self-managed team, client work directly with either Akatek’s PM or BA,
-                        depending on their specific needs and preferences. Thus, our PM or BA will lead the team and be
-                        responsible for ensuring the progress, while the QC will be responsible for quality control and
-                        ensuring the needs are delivered. This model provides client a hassle-free process without
-                        caring about managing the individual team member.
-                    </p>
-                    <a class="join_btn btn btn--neon signUpTrigger" href="./hire-development-team.html">Learn more</a>
-                </div>
                 <div class="media video">
                     <span class="media_cover cover">
                         <picture>
@@ -134,14 +164,24 @@
                     <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?controls=0" title="YouTube video player"
                         allowfullscreen></iframe>
                 </div>
+                <div class="main">
+                    <h3 class="main_title">Dedicated Development Team</h3>
+                    <p class="main_text">
+                        When client opt in for a self-managed team, client work directly with either Akatek’s PM or BA,
+                        depending on their specific needs and preferences. Thus, our PM or BA will lead the team and be
+                        responsible for ensuring the progress, while the QC will be responsible for quality control and
+                        ensuring the needs are delivered. This model provides client a hassle-free process without
+                        caring about managing the individual team member.
+                    </p>
+                    <a class="join_btn btn btn--neon signUpTrigger" href="./hire-development-team.html">Learn more</a>
+                </div>
             </div>
         </section>
         <!--  about section end  -->
         <!--  app section start  -->
         <!--  features section start  -->
         <section class="features">
-            <div class="container d-lg-flex align-items-center">
-                <div class="features_media"></div>
+            <div class="container d-lg-flex align-items-center aka-md-working-items">
                 <div class="features_main">
                     <h3 class="main_title">Offshore Staffing</h3>
                     <p class="features_main-text">
@@ -154,6 +194,7 @@
                     </p>
                     <a class="join_btn btn btn--neon signUpTrigger" href="./hire-developer.html">Learn more</a>
                 </div>
+                <div class="features_media"></div>
             </div>
         </section>
         <!--  features section end  -->

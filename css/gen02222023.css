@@ -170,8 +170,17 @@
   position: relative;
 }
 
+@media screen and (min-width: 725px) {
+  .ml-2 {
+    margin-left: 2rem !important;
+  }
+}
 
-
+@media screen and (min-width: 725px) {
+  .aka-btn-group {
+    display: flex;
+  }
+}
 
 .aka-underline-txt::after{
   content: "";

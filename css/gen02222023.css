@@ -162,13 +162,6 @@
   font-size: 32px;
 }
 
-.aka-service-item-title {
-
-}
-
-.aka-service-item-text {
-
-}
 
 .aka-underline-contain {
   padding: 0;
@@ -177,8 +170,6 @@
   position: relative;
 }
 
-.aka-underline-txt {
-}
 
 
 
@@ -197,9 +188,29 @@
   z-index: -1;
 }
 
+.app_shapes {
+  z-index: -1;
+}
+
+.aka-underline-link {
+  text-decoration: underline;
+  color: #29F3AF;
+}
+
 @media screen and (min-width: 1199.98px) {
   .services {
     padding: 140px 0 20px !important;
+  }
+
+  .features_main {
+    width: calc(100% - 60px - 475px) !important;
+  }
+
+  .app_main {
+    width: calc(100% - 60px - 475px) !important;
+  }
+  .app_media {
+    width: calc(100% - 60px - 475px) !important;
   }
 
   .about {

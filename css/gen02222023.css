@@ -35,13 +35,12 @@
 
 @media screen and (max-width: 1400px) {
   .hero_bg-blue {
-    display: none;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .services_shape {
-    top: 30px !important;
+    top: 188px !important;
     transform: translateX(5%);
   }
 }
@@ -234,6 +233,28 @@
 .aka-underline-link {
   text-decoration: underline;
   color: #29F3AF;
+}
+
+.aka_slogan-heading {
+  color: #ffffff; 
+  max-width:70%; 
+  font-size: 45px;
+}
+
+.aka_slogan-text {
+  font-size: 18px; 
+  color: #ffffff; 
+  max-width: 60%; 
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 570px) {
+  .aka_slogan-heading {
+    max-width: 100%; 
+  }
+  .aka_slogan-text {
+    max-width: 100%; 
+  }
 }
 
 @media screen and (min-width: 1199.98px) {

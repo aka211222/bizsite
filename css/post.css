@@ -161,7 +161,7 @@ html.fixed, html.swal2-shown {
 body {
   font-size: 16px;
   line-height: 1.6;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito-Regular", monospace;
   color: #28313D;
 }
 
@@ -320,7 +320,7 @@ h6, .h6 {
   text-transform: uppercase;
   line-height: 1;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito-Regular", monospace;
   font-weight: 700;
   height: 48px;
   display: -webkit-box;
@@ -634,7 +634,7 @@ input[type="checkbox"]:checked + label .icon {
 /* line 442, ../../../Documents/work space/bizsite/scss/global/_global.scss */
 .stripe .ticker {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito-Regular", monospace;
   font-weight: 400;
   width: 100%;
 }
@@ -1683,7 +1683,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 81, ../../../Documents/work space/bizsite/scss/pages/post/_article.scss */
 .article_progress-main .block_header .number {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito-Regular", monospace;
   color: #a52a2a;
 }
 

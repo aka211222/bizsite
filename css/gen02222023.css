@@ -7,12 +7,16 @@
 }
 
 .aka-bg-orange {
-    background: #ff7b02 !important;
+    background: #A42A2A !important;
 }
 
 .aka-btn-neon {
     background: #29F3AF !important;
     box-shadow: 3px 3px 0 #29F3AF !important;
+}
+
+.ticker-text {
+  font-size: 38px !important;
 }
 
 @media screen and (min-width: 1400px) {
@@ -34,8 +38,6 @@
 }
 
 @media screen and (max-width: 1400px) {
-  .hero_bg-blue {
-  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -113,6 +115,30 @@
     }
   }
 
+
+  .hero_main {
+    transform: translateY(-40%);
+  }
+
+  @media screen and (min-width: 1199.98px) {
+    .hero_media {
+      transform: translateX(-20%);
+    }
+  }
+
+  @media screen and (min-width: 1399.98px) {
+    .hero_bg-blue {
+      max-height: 500px;
+      width: auto;
+    }
+  }
+
+  @media screen and (min-width: 1199.98px) {
+    .hero {
+      height: 625px !important;
+    }
+  }
+  
   @media screen and (min-width: 1599.98px) {
     /* line 68, ../../../Documents/work space/bizsite/scss/pages/service/_join.scss */
     .join_media-left {
@@ -257,9 +283,14 @@
   }
 }
 
+
+.main_text {
+  margin-bottom: 40px !important;
+}
+
 @media screen and (min-width: 1199.98px) {
   .services {
-    padding: 140px 0 20px !important;
+    padding: 0px 0 20px !important;
   }
 
   .features_main {

@@ -13,12 +13,12 @@
 }
 
 @mixin neonEl() {
-    background: $accent;
+    background: $secondary;
     color: $headerColor;
     border: $border;
-    -webkit-box-shadow: 3px 3px 0 $accent;
-       -moz-box-shadow: 3px 3px 0 $accent;
-            box-shadow: 3px 3px 0 $accent;
+    -webkit-box-shadow: 3px 3px 0 $secondary;
+       -moz-box-shadow: 3px 3px 0 $secondary;
+            box-shadow: 3px 3px 0 $secondary;
     -webkit-border-radius: 2px;
        -moz-border-radius: 2px;
             border-radius: 2px;

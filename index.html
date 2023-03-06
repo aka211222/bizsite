@@ -88,11 +88,11 @@
                             </a>
                         </li> -->
                     <li class="header_nav-list_btn">
-                        <a class="btn" href="./contact.html" style="font-size:18px;">Free Demo</a>
+                        <a class="btn" href="./contact.html" style="font-size:18px; color: white;">Free Demo</a>
                     </li>
                 </ul>
             </nav>
-            <a class="header_btn btn btn--neon" href="./contact.html">Free Demo</a>
+            <a class="header_btn btn btn--neon" href="./contact.html" style="color: white;">Free Demo</a>
             <button class="header_trigger" id="headerTrigger" data-bs-toggle="collapse" data-bs-target="#headerMenu"
                 aria-controls="headerMenu" aria-expanded="false" type="button">
                 <i class="icon-arrow-left icon arrow-rotate"></i>
@@ -108,73 +108,60 @@
             </div>
             <div class="container d-xl-flex">
                 <div class="hero_main">
-                    <h2 class="aka_slogan-heading">Dedicated development team in Vietnam,
+                    <h2 class="aka_slogan-heading" style="color: #000000;">Dedicated development team in Vietnam,
                         tailored to your needs
                     </h2>
-                    <p class="h7 aka_slogan-text">
+                    <p class="h7 aka_slogan-text" style="color: #000000;">
                         Achieve your business goals and create apps that people love with our remote engineers and tech
                         services experts.
                     </p>
 
                     <div class="aka-btn-group">
-                        <a class="hero_main-btn btn btn--neon" href="./contact.html" target="_blank">Hire a Team</a>
+                        <a class="hero_main-btn btn btn--neon" href="./contact.html" target="_blank" style="color: white;">Hire a Team</a>
                         <a class="hero_main-btn btn btn--white ml-2" href="./contact.html" target="_blank">Hire
                             Developers</a>
                     </div>
                 </div>
                 <div class="hero_media">
-                    <lottie-player class="lottie" src="lottie/herohome.json" background="transparent" speed=".5"
-                        style="width: 100%; height: 100%" loop autoplay></lottie-player>
+                    <!--
+                        <lottie-player class="lottie" src="lottie/herohome.json" background="transparent" speed=".5"
+                        style="width: 100%; height: 100%; color:#000000" loop autoplay></lottie-player>
+                    -->
+                    <picture>
+                        <source data-srcset="svg/herocontact.svg" srcset="svg/herocontact.svg"
+                            type="image/svg" />
+                        <img class="lazy" data-src="svg/herocontact.svg" src="svg/herocontact.svg" style="width: 600px;"
+                            alt="Optimization" />
+                    </picture>
                 </div>
             </div>
         </section>
         <!-- hero section end -->
 
         <div class="stripe d-flex align-items-center aka-bg-orange">
-            <div class="stripe_block d-none d-sm-flex align-items-center">
-                <span class="stripe_block-icon">
-                    <i class="icon-arrow-left icon"></i>
-                </span>
-                <ul class="stripe_block-list d-flex flex-column">
-                    <li>Backend</li>
-                    <li>Frontend</li>
-                    <li>Mobility</li>
-                </ul>
-            </div>
-            <div class="ticker h3" id="ticker"></div>
+
+            <div class="ticker h3" id="ticker" style="width: 100%;"></div>
             <!--  ticker content changes here  -->
 
             <div class="d-none">
-                <span class="ticker-item">Angular</span>
-                <span class="ticker-item">VueJS</span>
-                <span class="ticker-item">Kotlin</span>
-                <span class="ticker-item">Swift</span>
-                <span class="ticker-item">Flutter</span>
-                <span class="ticker-item">React Native</span>
-                <span class="ticker-item">MongoDB</span>
-                <span class="ticker-item">DynamoDB</span>
-                <span class="ticker-item">MySQL</span>
-                <span class="ticker-item">Oracle SQL</span>
-                <span class="ticker-item">AWS</span>
-                <span class="ticker-item">iOS</span>
-                <span class="ticker-item">Android</span>
+                <span class="ticker-item aka-running-txt">Angular</span>
+                <span class="ticker-item aka-running-txt">VueJS</span>
+                <span class="ticker-item aka-running-txt">Kotlin</span>
+                <span class="ticker-item aka-running-txt">Swift</span>
+                <span class="ticker-item aka-running-txt">Flutter</span>
+                <span class="ticker-item aka-running-txt">React Native</span>
+                <span class="ticker-item aka-running-txt">MongoDB</span>
+                <span class="ticker-item aka-running-txt">DynamoDB</span>
+                <span class="ticker-item aka-running-txt">MySQL</span>
+                <span class="ticker-item aka-running-txt">Oracle SQL</span>
+                <span class="ticker-item aka-running-txt">AWS</span>
+                <span class="ticker-item aka-running-txt">iOS</span>
+                <span class="ticker-item aka-running-txt">Android</span>
             </div>
             <!--  ticker content changes here  -->
         </div>
 
         <section class="chart" style="background: #ffffff;">
-            <div class="chart_shapes">
-                <div class="group group--left">
-                    <img class="shape" src="svg/bgshape_whiteline.svg" alt="We Design and Develop">
-                    <img class="circle" src="svg/ovalwhite.svg" alt="We Design and Develop">
-                    <span class="circle circle--big"></span>
-                </div>
-                <div class="group group--right">
-                    <img class="circle" src="svg/circles_white.svg" alt="BWe Design and Develop">
-                    <img class="shape shape--rotate" src="svg/white_line.svg" alt="We Design and Develop">
-                    <img class="shape" src="svg/white_line.svg" alt="We Design and Develop">
-                </div>
-            </div>
             <div class="container">
                 <h3 class="chart_header" style="color:black">Why AkaTek</h3>
                 <div class="aka-text-center">
@@ -219,15 +206,14 @@
                     </div>
                 </div>
                 <div class="aka-center">
-                    <a class="join_btn btn btn--neon signUpTrigger" href="./contact.html">Talk to our Sales</a>
+                    <a class="join_btn btn btn--neon signUpTrigger" href="./contact.html" style="color: white;">Talk to our Sales</a>
                 </div>
             </div>
 
         </section>
 
         <!-- services content start -->
-        <main class="services pt-2">
-            <img class="services_shape" src="svg/blueshape1.svg" alt="AkaTek">
+        <main class="services" style="background-color: #F7F7FE;">
             <div class="container">
                 <ul class="services-home_list d-flex flex-column">
                     <li class="services-home_list-item">
@@ -239,22 +225,28 @@
                                 process, ensuring that you get top-tier software engineers for your business, saving you
                                 time and effort in the hiring process.</p>
                             <ul class="main_list">
-                                <a class="main_btn btn btn--neon" href="./hire-developer.html">Learn more</a>
+                                <a class="main_btn btn btn--neon" href="./hire-developer.html" style="color: white">Learn more</a>
                             </ul>
 
                         </div>
                         <div class="media">
                             <picture>
-                                <source data-srcset="svg/illustartion%203.svg" srcset="svg/illustartion%203.svg"
+                                <source data-srcset="svg/hire-develop.svg" srcset="svg/hire-develop.svg"
                                     type="image/webp" />
-                                <img class="lazy" data-src="svg/illustartion%203.svg" src="svg/illustartion%203.svg"
+                                <img class="lazy" data-src="svg/hire-develop.svg" src="svg/hire-develop.svg"
                                     alt="Optimization" />
                             </picture>
-                            <span class="media_icon">
-                                <i class="icon-filesearch icon"></i>
-                            </span>
                         </div>
                     </li>
+                </ul>
+            </div>
+            <!-- new zone start -->
+            <!-- new zone end -->
+        </main>
+
+        <main class="services">
+            <div class="container">
+                <ul class="services-home_list d-flex flex-column">
                     <li class="services-home_list-item" style="flex-direction:unset;">
                         <div class="main">
                             <h4 class="main_title" style="font-size: 38px;">Build a dedicated development team in Vietnam</h4>
@@ -262,15 +254,17 @@
                                 We handle team coordination, motivation, and management so you can focus on guiding the
                                 project and ensuring its progress meets your expectations.</p>
                             <ul class="main_list">
-                                <a class="main_btn btn btn--neon" href="./hire-developer.html">Learn more</a>
+                                <a class="main_btn btn btn--neon" href="./hire-developer.html" style="color: white">Learn more</a>
                             </ul>
 
                         </div>
                         <div class="media">
                             <picture>
-                                
+                                <source data-srcset="svg/hire-team.svg" srcset="svg/hire-team.svg"
+                                    type="image/webp" />
+                                <img class="lazy" data-src="svg/hire-team.svg" src="svg/hire-team.svg"
+                                    alt="Optimization" />
                             </picture>
-
                         </div>
                     </li>
                 </ul>
@@ -298,13 +292,13 @@
                 <ul class="footer_top-nav d-flex flex-wrap">
                     <li class="footer_top-nav_link">
                         <a class="link h5" href="./hire-development-team.html">
-                            Hire Dedicated Team
+                            Hire a Team
                             <i class="icon-arrow-left icon arrow-rotate"></i>
                         </a>
                     </li>
                     <li class="footer_top-nav_link">
                         <a class="link h5" href="./hire-developer.html">
-                            Hire Develop
+                            Hire Developers
                             <i class="icon-arrow-left icon arrow-rotate"></i>
                         </a>
                     </li>

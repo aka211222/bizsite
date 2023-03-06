@@ -342,12 +342,12 @@ h6, .h6 {
 
 /* line 207, ../../../Documents/work space/bizsite/scss/global/_global.scss */
 .btn--neon {
-  background: #29F3AF;
+  background: #ff7b02;
   color: #1B2129;
   border: 1px solid #1B2129;
-  -webkit-box-shadow: 3px 3px 0 #29F3AF;
-  -moz-box-shadow: 3px 3px 0 #29F3AF;
-  box-shadow: 3px 3px 0 #29F3AF;
+  -webkit-box-shadow: 3px 3px 0 #ff7b02;
+  -moz-box-shadow: 3px 3px 0 #ff7b02;
+  box-shadow: 3px 3px 0 #ff7b02;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -362,12 +362,12 @@ h6, .h6 {
 
 /* line 211, ../../../Documents/work space/bizsite/scss/global/_global.scss */
 .btn--white {
-  background: #29F3AF;
+  background: #ff7b02;
   color: #1B2129;
   border: 1px solid #1B2129;
-  -webkit-box-shadow: 3px 3px 0 #29F3AF;
-  -moz-box-shadow: 3px 3px 0 #29F3AF;
-  box-shadow: 3px 3px 0 #29F3AF;
+  -webkit-box-shadow: 3px 3px 0 #ff7b02;
+  -moz-box-shadow: 3px 3px 0 #ff7b02;
+  box-shadow: 3px 3px 0 #ff7b02;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -1007,9 +1007,9 @@ input[type="checkbox"]:checked + label .icon {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-box-shadow: 2px 2px 0 #29F3AF;
-  -moz-box-shadow: 2px 2px 0 #29F3AF;
-  box-shadow: 2px 2px 0 #29F3AF;
+  -webkit-box-shadow: 2px 2px 0 #ff7b02;
+  -moz-box-shadow: 2px 2px 0 #ff7b02;
+  box-shadow: 2px 2px 0 #ff7b02;
 }
 
 /* line 792, ../../../Documents/work space/bizsite/scss/global/_global.scss */

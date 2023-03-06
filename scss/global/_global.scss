@@ -785,9 +785,9 @@ input {
             -ms-transform: translate(-50%, -50%);
              -o-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
-        -webkit-box-shadow: 2px 2px 0 $accent;
-           -moz-box-shadow: 2px 2px 0 $accent;
-                box-shadow: 2px 2px 0 $accent;
+        -webkit-box-shadow: 2px 2px 0 $secondary;
+           -moz-box-shadow: 2px 2px 0 $secondary;
+                box-shadow: 2px 2px 0 $secondary;
 
         &:hover, &:focus {
             -webkit-box-shadow: 2px 2px 0 $headerColor;

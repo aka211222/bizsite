@@ -208,8 +208,8 @@
 }
 
 .aka-service-item:hover {
-  -webkit-box-shadow: 3px 3px 0 #29f3af;
-  box-shadow: 3px 3px 0 #29f3af;
+  -webkit-box-shadow: 2px 2px 0 #000000;
+  box-shadow: 2px 2px 0 #000000;
 }
 
 .aka-service-item i {

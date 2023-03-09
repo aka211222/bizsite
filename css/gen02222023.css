@@ -25,15 +25,9 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .hero_bg-blue {
     height: 600px !important;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .hero_bg-blue {
-    height: 700px !important;
   }
 }
 
@@ -116,20 +110,13 @@
   }
 
 
-  .hero_main {
-    transform: translateY(-40%);
-  }
 
   @media screen and (min-width: 1199.98px) {
     .hero_media {
       transform: translateX(-20%);
     }
-  }
-
-  @media screen and (min-width: 1399.98px) {
-    .hero_bg-blue {
-      max-height: 500px;
-      width: auto;
+    .hero_main {
+      transform: translateY(-40%);
     }
   }
 

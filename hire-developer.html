@@ -25,6 +25,16 @@
         <meta property="fb:app_id" content="448115873864536">
         <meta property="og:site_name" content="AkaTek | Web And Mobile App Development Services">
         <meta name="twitter:description" content="AkaTek provides human resources or products building solutions in software development industry.">
+        <style>
+            @font-face {
+                font-family: GorditaRegular;
+                src: url(./fonts/Gordita-Regular.otf);
+            }
+
+            main {
+                font-family: GorditaRegular !important;
+            }
+        </style>
     </head>
     <body>
         <header class="header d-lg-flex align-items-center" data-page="home" data-page-parent="home">
@@ -44,31 +54,39 @@
                             </li> -->
                         <li class="header_nav-list_item">
                             <a class="nav-item nav-link" href="./index.html" data-page="hero" data-single="true">
-                                <span class="nav-item_text">Home</span>
+                                <span class="nav-item_text" style="font-size:18px;">Home</span>
                             </a>
                         </li>
                         <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="./working.html" data-page="about" data-single="true">
-                                <span class="nav-item_text">Working</span>
+                            <a class="nav-item nav-link" href="./hire-development-team.html" data-page="about"
+                                data-single="true">
+                                <span class="nav-item_text" style="font-size:18px;">Hire a Team</span>
                             </a>
                         </li>
-    
+
                         <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="./pricing.html" data-page="prices" data-single="true">
-                                <span class="nav-item_text">Pricing</span>
+                            <a class="nav-item nav-link" href="./hire-developer.html" data-page="prices" data-single="true">
+                                <span class="nav-item_text" style="font-size:18px;">Hire Developers</span>
                             </a>
                         </li>
+
+                        <!-- <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="./contact.html" data-page="prices" data-single="true">
+                                <span class="nav-item_text" style="font-size:18px;">Contact</span>
+                            </a>
+                        </li> -->
+
                         <!--  <li class="header_nav-list_item">
                                 <a class="nav-item nav-link" href="#feedback" data-page="contact" data-single="true">
                                     <span class="nav-item_text">Contact</span>
                                 </a>
                             </li> -->
                         <li class="header_nav-list_btn">
-                            <a class="btn" href="./contact.html">Contact</a>
+                            <a class="btn" href="./contact.html" style="font-size:18px; color: white;">Contact us</a>
                         </li>
                     </ul>
                 </nav>
-                <a class="header_btn btn btn--neon" href="./contact.html">Contact</a>
+                <a class="header_btn btn btn--neon" href="./contact.html" style="color: white;">Contact us</a>
                 <button class="header_trigger" id="headerTrigger" data-bs-toggle="collapse" data-bs-target="#headerMenu"
                     aria-controls="headerMenu" aria-expanded="false" type="button">
                     <i class="icon-arrow-left icon arrow-rotate"></i>
@@ -100,12 +118,12 @@
             <div class="container d-md-flex">
                 <div class="page_header">
                     <div class="wrapper">
-                        <span class="tw-height h2">
-                            <span class="text">Hire remote developers in Vietnam</span>
-                        </span>
-                        <h2 class="page_header-title type" data-text="Hire remote developers in Vietnam">Hire remote developers in Vietnam</h2>
+                        <h2 class="page_header-title aka_slogan-heading" style="color: #000;">Hire remote developers in Vietnam</h2>
                     </div>
-                    <h5 class="page_header-subtitle">Build a complete, dedicated development team solution for your complex engineering problems. Go hands-off with your hands-on projects.</h5>
+                    <p class="page_header-subtitle aka_slogan-text" style="color: #000;">Build a complete, dedicated development team solution for your complex engineering problems. Go hands-off with your hands-on projects.</p>
+                    <div class="aka-btn-group">
+                        <a class="hero_main-btn btn btn--neon" href="./contact.html" target="_blank" style="color: white;">Talk to our Sales</a>
+                    </div>
                 </div>
                 <div class="page_media">
                     <img class="page_media-main" src="svg/services.svg" alt="Services" />
@@ -115,53 +133,7 @@
         </header>
         <!-- single service content start -->
         <main>
-            <!--  about section start  -->
-            <section class="about section">
-                <div class="container d-lg-flex align-items-center">
-                    <div class="media video">
-                        <span class="media_cover cover">
-                            <picture>
-                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="Data Analysis" />
-                            </picture>
-                            <a class="video-btn btn--neon" href="#">
-                                <i class="icon-play icon"></i>
-                            </a>
-                        </span>
-                        <iframe
-                            src="https://www.youtube.com/embed/XHOmBV4js_E?controls=0"
-                            title="YouTube video player"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-                    <div class="main">
-                        <h3 class="main_title">Data Analysis</h3>
-                        <p class="main_text">
-                            Phasellus fringilla dignissim diam. Duis nec tempus ligula. Curabitur vel pretium. Vestibulum metus pur esta.
-                            Nunc imperdiet elit sem
-                        </p>
-                        <ul class="main_list">
-                            <li class="main_list-item">
-                                <i class="icon-circle icon"></i>
-                                Survey & Research
-                            </li>
-                            <li class="main_list-item">
-                                <i class="icon-circle icon"></i>
-                                Planning & Supply Chain
-                            </li>
-                            <li class="main_list-item">
-                                <i class="icon-circle icon"></i>
-                                Setup & Reporting
-                            </li>
-                            <li class="main_list-item">
-                                <i class="icon-circle icon"></i>
-                                Bug Fixes
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <!--  about section end  -->
+
             <!--  app section start  -->
             <section class="app section">
                 <div class="app_shapes">
@@ -178,70 +150,91 @@
                 </div>
                 <div class="container d-flex flex-column-reverse flex-lg-row align-items-lg-center">
                     <div class="app_main">
-                        <div class="app_main-header">
-                            <h4 class="app_main-header_title">Sitech App platform now is available on a SaaS mode</h4>
-                            <p class="app_main-header_text">
-                                Suspendisse hendrerit, augue accumsan dictum tincidunt, sem sapien lobortis nibh, vitae auctor mi tortor et
-                                ipsum. Duis vitae augue vitae mi suscipit rutrum vitae non eros.
-                            </p>
+                        <div class="app_main-header mb-3">
+                            <h4 class="app_main-header_title">How we ensure you get the top-tier developers for your business</h4>
                         </div>
                         <ul class="app_main-list d-flex flex-column">
                             <li class="app_main-list_item">
                                 <span class="number countNum" data-prefix="0" data-value="1">01</span>
                                 <div class="main">
-                                    <h6 class="main_title">Choosing the optimal solution</h6>
+                                    <h6 class="main_title">Get to know your requirements</h6>
                                     <p class="main_text">
-                                        Nullam elementum, magna at suscipit lobortis, dui nibh molestie enim, sed scelerisque ex odio sit
-                                        amet purus. Pellentesque fermentum mauris eget ligula Praesent lacinia ligula nec
+                                        We will schedule a call and understand your requirements in detail.
                                     </p>
                                 </div>
                             </li>
                             <li class="app_main-list_item">
                                 <span class="number countNum" data-prefix="0" data-value="2">02</span>
                                 <div class="main">
-                                    <h6 class="main_title">Big Data Discover, Elaborate, Optimization</h6>
+                                    <h6 class="main_title">We find the best talent for you</h6>
                                     <p class="main_text">
-                                        Nullam elementum, magna at suscipit lobortis, dui nibh molestie enim, sed scelerisque ex odio sit
-                                        amet purus. Pellentesque fermentum mauris eget ligula. Praesent lacinia ligula
+                                        We send a list of candidates that passes our English assessment and Coding test for your further assessments.
                                     </p>
                                 </div>
                             </li>
                             <li class="app_main-list_item">
                                 <span class="number countNum" data-prefix="0" data-value="3">03</span>
                                 <div class="main">
-                                    <h6 class="main_title">Support and Promote Services</h6>
+                                    <h6 class="main_title">Get your right hires</h6>
                                     <p class="main_text">
-                                        Nullam elementum, magna at suscipit lobortis, dui nibh molestie enim, sed scelerisque ex odio sit
-                                        amet purus
+                                        You interview further and select the candidates you like. We will handle payroll, benefits, and other HR-related tasks in Vietnam so you can focus on core business.
                                     </p>
                                 </div>
                             </li>
                         </ul>
+                        <div class="aka-btn-group">
+                            <a class="hero_main-btn btn btn--neon" href="./contact.html" target="_blank" style="color: white;">Talk to our Sales</a>
+                        </div>
                     </div>
                     <div class="app_media">
                         <picture>
-                            <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
-                            <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="Our App" />
+                            <source data-srcset="svg/undraw_following_re_d5aa.svg" srcset="svg/undraw_following_re_d5aa.svg" />
+                            <img class="lazy" data-src="svg/undraw_following_re_d5aa.svg" src="svg/undraw_following_re_d5aa.svg" alt="Our App" />
                         </picture>
                     </div>
                 </div>
             </section>
             <!--  app section end  -->
-            <!--  features section start  -->
-            <section class="features">
-                <div class="container d-lg-flex align-items-center">
-                    <div class="features_media"></div>
-                    <div class="features_main">
-                        <h4 class="features_main-title">Interfacing with your third-party applications (ERP, CMMS, BIM, BI,…)</h4>
-                        <p class="features_main-text">
-                            Suspendisse hendrerit, augue accumsan dictum tincidunt, sem sapien lobortis nibh, vitae auctor mi tortor et
-                            ipsum. Duis vitae augue vitae mi suscipit rutrum vitae non eros.
-                        </p>
-                        <a class="features_main-btn btn btn--white signUpTrigger" href="#">Get started</a>
+            <!--  app section start  -->
+            <section class="app section features">
+                <div class="container d-flex flex-column-reverse flex-lg-row align-items-lg-center">
+                    <div class="app_main">
+                        <div class="app_main-header">
+                            <h3 class="main_title">Tech Stacks</h3>
+                        </div>
+                        <br />
+                        <div class="tech-stacks-list d-flex flex-wrap">
+                            <div class="tech-stacks-item">Nodejs</div>
+                            <div class="tech-stacks-item">Java</div>
+                            <div class="tech-stacks-item">Mysql</div>
+                            <div class="tech-stacks-item">Vuejs</div>
+                            <div class="tech-stacks-item">Mongodb</div>
+                            <div class="tech-stacks-item">DynamoDB</div>
+                            <div class="tech-stacks-item">Reactjs</div>
+                            <div class="tech-stacks-item">Python</div>
+                            <div class="tech-stacks-item">Wordpress</div>
+                            <div class="tech-stacks-item">Android Java</div>
+                            <div class="tech-stacks-item">Etherum</div>
+                            <div class="tech-stacks-item">BSC</div>
+                            <div class="tech-stacks-item">Kotlin</div>
+                            <div class="tech-stacks-item">IOS Swift</div>
+                            <div class="tech-stacks-item">Flutter</div>
+                            <div class="tech-stacks-item">Flow</div>
+                            <div class="tech-stacks-item">AWS</div>
+                        </div>
+                        <div class="aka-btn-group">
+                            <a class="hero_main-btn btn btn--neon" href="./contact.html" target="_blank" style="color: white;">Talk to our Sales</a>
+                        </div>
+                    </div>
+                    <div class="app_media">
+                        <picture style="width: 100%;">
+                            <source data-srcset="svg/undraw_team_re_0bfe.svg" srcset="svg/undraw_team_re_0bfe.svg" />
+                            <img class="lazy" data-src="svg/undraw_team_re_0bfe.svg" src="svg/undraw_team_re_0bfe.svg" alt="Our App" />
+                        </picture>
                     </div>
                 </div>
             </section>
-            <!--  features section end  -->
+            <!--  app section end  -->
             <section class="join section">
                 <div class="join_media">
                     <img class="join_media-left lazy" src="svg/joinman.svg" alt="Join Us" />

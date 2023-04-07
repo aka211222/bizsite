@@ -12,7 +12,9 @@
 
 .aka-btn-neon {
     background: #29F3AF !important;
-    box-shadow: 3px 3px 0 #29F3AF !important;
+    -webkit-box-shadow: 3px 3px 0 #29F3AF !important;
+       -moz-box-shadow: 3px 3px 0 #29F3AF !important;
+            box-shadow: 3px 3px 0 #29F3AF !important;
 }
 
 .ticker-text {
@@ -37,7 +39,11 @@
 @media screen and (min-width: 1400px) {
   .services_shape {
     top: 188px !important;
-    transform: translateX(5%);
+    -webkit-transform: translateX(5%);
+       -moz-transform: translateX(5%);
+        -ms-transform: translateX(5%);
+         -o-transform: translateX(5%);
+            transform: translateX(5%);
   }
 }
 
@@ -113,10 +119,18 @@
 
   @media screen and (min-width: 1199.98px) {
     .hero_media {
-      transform: translateX(-20%);
+      -webkit-transform: translateX(-20%);
+         -moz-transform: translateX(-20%);
+          -ms-transform: translateX(-20%);
+           -o-transform: translateX(-20%);
+              transform: translateX(-20%);
     }
     .hero_main {
-      transform: translateY(-40%);
+      -webkit-transform: translateY(-40%);
+         -moz-transform: translateY(-40%);
+          -ms-transform: translateY(-40%);
+           -o-transform: translateY(-40%);
+              transform: translateY(-40%);
     }
   }
 
@@ -150,21 +164,43 @@
 
 
 .aka-service-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+     -moz-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   gap: 3px;
 }
 
 
 @media screen and (max-width: 615px) {
   .aka-service-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 .aka-service-list > * {
-  flex: 1 0 0; /* flex-basis: 0; flex-grow: 1; flex-shrink: 0; */
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 0;
+     -moz-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0; /* flex-basis: 0; flex-grow: 1; flex-shrink: 0; */
 }
 
 .aka-service-item {
@@ -175,9 +211,21 @@
 }
 
 .aka-text-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .aka-text-center span {
@@ -186,8 +234,16 @@
 
 .aka-center {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .aka-service-item .spy-2 {
@@ -196,7 +252,8 @@
 
 .aka-service-item:hover {
   -webkit-box-shadow: 2px 2px 0 #000000;
-  box-shadow: 2px 2px 0 #000000;
+  -moz-box-shadow: 2px 2px 0 #000000;
+       box-shadow: 2px 2px 0 #000000;
 }
 
 .aka-service-item i {
@@ -208,7 +265,9 @@
 .aka-underline-contain {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
 }
 
@@ -220,6 +279,10 @@
 
 @media screen and (min-width: 725px) {
   .aka-btn-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -249,16 +312,15 @@
 }
 
 .aka_slogan-heading {
-  color: #ffffff; 
-  max-width:70%; 
-  font-size: 45px;
+  color: #000; 
+  font-size: 38px;
 }
 
 .aka_slogan-text {
   font-size: 18px; 
   color: #ffffff; 
-  max-width: 60%; 
   margin: 20px 0;
+  max-width: 420px;
 }
 
 @media screen and (max-width: 570px) {
@@ -281,13 +343,19 @@
   }
 
   .features_main {
+    width: -webkit-calc(100% - 60px - 475px) !important;
+    width: -moz-calc(100% - 60px - 475px) !important;
     width: calc(100% - 60px - 475px) !important;
   }
 
   .app_main {
+    width: -webkit-calc(100% - 60px - 475px) !important;
+    width: -moz-calc(100% - 60px - 475px) !important;
     width: calc(100% - 60px - 475px) !important;
   }
   .app_media {
+    width: -webkit-calc(100% - 60px - 475px) !important;
+    width: -moz-calc(100% - 60px - 475px) !important;
     width: calc(100% - 60px - 475px) !important;
   }
 

@@ -18,12 +18,7 @@
             position: relative;
             margin: 63px 0 20px;
 
-            &:before {
-                content: '';
-                @include caret;
-                top: -33px;
-                left: 0;
-            }
+            
         }
     }
 
